@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'Hey Guys, names Liam !';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
-  const footerText = process.env.BLOG_FOOTER_TEXT
+    : 'I\'m full stack web developer, and this site is for all my Front End Mentor solutions !';
+    const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'You can also find other projects of mine on GitHub and Codepen.io';
 
   return {
     name,
